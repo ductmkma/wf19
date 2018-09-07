@@ -1,0 +1,175 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/contactform.js"></script>
+		<script>
+			wow = new WOW({}).init();
+		</script>
+	</head>
+	<body>
+		<button id="myBtn" title="Go to top">Top</button>
+		<header>
+			<nav class="navbar-default navbar navbar-static-top">
+				<div class="content">
+					<div class="container">
+						<div class="navbar-header">
+							<div class="navbar-brand">
+								<a href="index.html"><h1><span>M</span>ulti</h1></a>
+							</div>
+						</div>
+
+						<div class="navbar-collapse collapse">
+							<div class="menu">
+								<ul class="nav nav-tabs">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="portfolio.html">Portfolio</a></li>
+									<li><a href="contact.html" class="active">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="contact">
+			<div class="container">
+				<div class="text-center">
+					<div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+						<h2>Contact Us</h2>
+					</div>
+					<div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-md-7">
+				<div class="map">
+					<div id="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.9848502045684!2d105.84695211440678!3d20.99324439436688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac6dce1c3075%3A0x1151330eb74574fe!2sZent+Space!5e0!3m2!1svi!2s!4v1536147026693" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+				</div>
+			</div>
+			<div class="info">
+				<div class="col-md-5">
+					<h2>We Are Multi</h2>
+					<h3>That Inspires Our Customers & Clients</h3>
+					<p>Fusce fermen tum neque a rutrum varius odio pede ullamcorp-er tellus ut dignissim nisi risus non tortor</p>
+					<ul>
+						<li><i class="fa fa-home fa-2x"></i> Office # 38, Suite 54 Elizebth Street</li>
+						<li><i class="fa fa-phone fa-2x"></i> +38 000 129900</li>
+						<li><i class="fa fa-envelope fa-2x"></i> info@domain.net</li>
+					</ul>
+				</div>
+			</div>
+			<<div class="form">
+				<div class="container">
+					<div class="col-md-8 col-md-offset-2">
+						<div id="send">Your message has been sent. Thank you!</div>
+						<div id="error"></div>
+						<form action="" method="post" role="form" class="contactForm">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+								<div class="validation"></div>
+							</div>
+							<div class="text-center"><button type="submit" class="btn btn-primary btn-lg" style="color: ">Send Message</button></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="first-footer">
+				<div class="container">
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+						<h2>Multi</h2>
+						<p>In a elit in lorem congue varius. Sed nec arcu. Etiam sit amet augue. Fusce fermen tum neque a rutrum varius odio pede ullamcorp-er tellus ut dignissim nisi risus non tortor. Aliquam mollis neque.</p>
+
+						<ul class="social-network">
+							<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.4s">
+						<h3>RECENT POSTS</h3>
+						<ul>
+							<li>Awesome Design with Overviews</li>
+							<hr>
+							<li>Great Design with Features </li>
+							<hr>
+							<li>Limitless functions & Works </li>
+							<hr>
+							<li>Multi is simple and clean design</li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+						<h3>CONTACT INFO</h3>
+						<ul>
+							<li><i class="fa fa-home fa-2x"></i> Office # 38, Suite 54 Elizebth Street, Victoria State Newyork, USA 33026</li>
+							<hr>
+							<li><i class="fa fa-phone fa-2x"></i> +38 000 129900</li>
+							<hr>
+							<li><i class="fa fa-envelope fa-2x"></i> info@domain.net</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="last-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							&copy; Multi Theme. All Rights Reserved.
+							<div class="credit">
+								Designed by <a href="#">BootstrapMade</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<ul class="pull-right">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	</html>
